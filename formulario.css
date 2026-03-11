@@ -1,0 +1,143 @@
+  form {
+    width: 50%;
+    margin: 0 auto;
+  }
+  
+  .form-group {
+    margin-bottom: 15px;
+  }
+  
+  label {
+    font-weight: bold;
+  }
+  
+  input, textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+  }
+  
+  textarea {
+    height: 150px;
+  }
+  
+  button {
+    width: 100%;
+    background-color: #000;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    
+
+  }
+  
+  .obs {
+    font-size: 12px;
+    color: #999;
+  }
+
+
+  
+.section-f{
+    display: flex;
+    justify-content: space-around;  
+    flex-wrap: wrap; 
+  
+    /* background-color: #bbdefb; */
+    height: 100%;
+    padding: 15px;
+    gap: 5px;
+  }
+  .section-f > div{
+    border-radius: 5px;
+    padding: 8px;
+  }
+  .section-f  h4{
+    color: #ff9c00;
+  }
+  footer {
+    border-top: 2px solid black;
+    margin: 20px auto 0 auto;
+  
+    background-color: #eaebec;
+    padding: 20px 0;
+    text-align: center;
+  }
+
+  .list-unstyled {
+    margin: 0;
+    padding: 0;
+}
+.list-inline {
+  color: #000 !important;
+}
+.list-inline-item {
+    margin-right: auto;
+}
+.list-inline  li{
+  text-align: left !important;
+  font-size: large;
+  padding: 8px 0 !important;
+  
+}
+.list-inline  li i{
+  font-size: xx-large;
+  color: #000;
+}
+.list-inline  li a{
+  color: #000;
+}
+.list-inline-item a i{
+  text-align: left;
+  font-size: xx-large;
+  color: #615a89 !important;
+}
+.list-inline ul{
+  text-align: left;
+}
+.list-inline-item:hover a:hover i:hover{
+    margin-right: 20px;
+    color: #615a89 !important;
+}
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+}
+footer hr{
+    width: 20%;
+}
+footer p{
+  max-width: 400px;
+  text-align: justify;
+  margin-right: 20px;
+  font-size: large;
+  color: #000 !important;
+}
+.item > button{
+  margin-top: 10px;
+}
+@media screen and (max-width: 676px){
+  .form-group {
+    width: 90%;
+    margin: 0 100px 0 0;
+  }
+  .item > button{
+    width: 50%;
+  }
+  .form-margin{
+    padding: 0 66px;
+  }
+  form {
+    width: 80%;
+    margin: 0 auto;
+  }
+}
+@media screen and (max-width: 376px){
+  .form-group {
+    width: 99%;
+  }
+  .item > button{
+    width: 99%;
+  }
+}
+
